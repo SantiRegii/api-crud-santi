@@ -1,7 +1,7 @@
 <?php
 // Conexión a SQLite
 try {
-    $db = new PDO('sqlite:' . __DIR__ . '/database.sqlite');
+    $df = new PDO('sqlite:' . __DIR__ . '/database.sqlite');
     $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
     // Crear tabla de tareas
