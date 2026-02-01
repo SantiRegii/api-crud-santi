@@ -14,7 +14,7 @@ $tasks = $stmt->fetchAll(PDO::FETCH_ASSOC);
     <title>Gestor de Tareas Limpio</title>
     <style>
         :root {
-            --primary: #4f46e5;
+            --primary: #079;
             --bg: #f3f4f6;
             --text: #111827;
         }
@@ -30,7 +30,7 @@ $tasks = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
         .card {
             background: white;
-            padding: 2rem;
+            padding: 1rem;
             border-radius: 0.5rem;
             box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
             width: 100%;
@@ -46,14 +46,14 @@ $tasks = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
         form {
             display: flex;
-            gap: 0.5rem;
+            gap: 0.8rem;
             margin-bottom: 1.5rem;
         }
 
         input {
             flex: 1;
             padding: 0.5rem;
-            border: 1px solid #d1d5db;
+            border: 2px solid #d1d5db;
             border-radius: 0.25rem;
         }
 
