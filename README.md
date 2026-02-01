@@ -1,5 +1,5 @@
 # Proyecto de Gestión de Tareas (CRUD)
-Este es un proyecto simple en PHP para gestionar las facturas de clientes, utilizando:
+Este es un proyecto simple (de santi) en PHP para gestionar las facturas de clientes, utilizando:
 - Apache: Para poder correr PHP
 - MySQL: Gestión de BD
 
