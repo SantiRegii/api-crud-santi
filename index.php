@@ -23,7 +23,7 @@ $tasks = $stmt->fetchAll(PDO::FETCH_ASSOC);
             font-family: system-ui, sans-serif;
             background: var(--bg);
             color: var(--text);
-            padding: 2rem;
+            padding: 10rem;
             display: flex;
             justify-content: center;
         }
@@ -81,13 +81,13 @@ $tasks = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
         .completed {
             text-decoration: line-through;
-            color: #9ca3af;
+            color: #c42a50;
         }
 
         .delete {
-            color: #ef4444;
+            color: #4472ef;
             text-decoration: none;
-            font-size: 0.875rem;
+            font-size: 0.9rem;
         }
     </style>
 </head>
